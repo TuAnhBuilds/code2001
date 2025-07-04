@@ -4,10 +4,10 @@ services:
     container_name: windows
     environment:
       VERSION: "10l"
-      USERNAME: "Dream"
-      PASSWORD: "123456h@"
-      RAM_SIZE: "4G"
-      CPU_CORES: "2"
+      USERNAME: "SpaceX"
+      PASSWORD: "123456"
+      RAM_SIZE: "8G"
+      CPU_CORES: "3"
       DISK_SIZE: "100G"
     devices:
       - /dev/kvm
