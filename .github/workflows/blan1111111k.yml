@@ -2,6 +2,7 @@ services:
   windows:
     image: dockurr/windows
     container_name: windows
+    restart: always # Thêm dòng này
     environment:
       VERSION: "10l"
       USERNAME: "SpaceX"
