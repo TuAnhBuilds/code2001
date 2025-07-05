@@ -7,7 +7,7 @@ services:
       USERNAME: "SpaceX"
       PASSWORD: "123456"
       RAM_SIZE: "8G"
-      CPU_CORES: "16"
+      CPU_CORES: "3"
       DISK_SIZE: "100G"
     devices:
       - /dev/kvm
